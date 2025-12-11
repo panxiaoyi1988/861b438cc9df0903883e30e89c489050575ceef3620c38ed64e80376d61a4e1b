@@ -1,10 +1,8 @@
 name: panxiaoyi1988
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 3/6 * * *'
-
+    - cron: '30 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,9 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: panxiaoyi1988
         env:
-          ysnt63363: ${{ secrets.ysnt63363 }}
+          g07: ${{ secrets.g07 }}
         run: |
-          echo $ysnt63363 | jq -r .hjdf59016 | /bin/bash
-          echo $qgj91507 | jq -r .sxuh41037 | /bin/bash
-          echo $fl7177 | jq -r .x06 | /bin/bash
+          echo $g07 | jq -r .uobjq8206 | /bin/bash
+          echo $gkv73 | jq -r .rjq61466 | /bin/bash
+          echo $u7666 | jq -r .bxrrs480 | /bin/bash
+          echo $tbxnr7 | jq -r .h6 | /bin/bash
+          echo $rdcx3487 | jq -r .ndwsb3984 | /bin/bash
+          echo $i73611 | jq -r .m1 | /bin/bash
+          echo $norjm2785 | jq -r .hv5814 | /bin/bash
+          echo $q09 | jq -r .ce87 | /bin/bash
+          echo $tt0171 | jq -r .kbo853 | /bin/bash
 

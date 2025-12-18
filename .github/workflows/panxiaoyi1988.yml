@@ -2,31 +2,30 @@ name: panxiaoyi1988
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0/6 * * *'
+    - cron: '51 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: panxiaoyi1988
         env:
-          s441: ${{ secrets.s441 }}
+          tc52324: ${{ secrets.tc52324 }}
         run: |
-          echo $s441 | jq -r .kfr9 | /bin/bash
-          echo $axdhh67 | jq -r .adrq0 | /bin/bash
-          echo $uvgl785 | jq -r .hdxdd45 | /bin/bash
-          echo $xtbb357 | jq -r .dykbn03889 | /bin/bash
-          echo $t803 | jq -r .eaeq081 | /bin/bash
-          echo $x4901 | jq -r .nyeh27 | /bin/bash
-          echo $uj509 | jq -r .tdfm051 | /bin/bash
-          echo $ofi34 | jq -r .l7 | /bin/bash
-          echo $fwoo72837 | jq -r .ifree23 | /bin/bash
-          echo $f67 | jq -r .v0928 | /bin/bash
-          echo $vte85292 | jq -r .d51536 | /bin/bash
-          echo $hsci1348 | jq -r .ipl46 | /bin/bash
-          echo $yth23138 | jq -r .unra414 | /bin/bash
-          echo $ru5 | jq -r .mlbvu79 | /bin/bash
-          echo $iwxx020 | jq -r .ifyvu960 | /bin/bash
-          echo $vbwj63 | jq -r .uoq4747 | /bin/bash
+          echo $tc52324 | jq -r .yq15657 | /bin/bash
+          echo $pw37 | jq -r .pbilc16900 | /bin/bash
+          echo $hrkj3304 | jq -r .lwvb79 | /bin/bash
+          echo $uqxpi5 | jq -r .dm772 | /bin/bash
+          echo $ryyag72 | jq -r .f1816 | /bin/bash
+          echo $v43 | jq -r .nxy6736 | /bin/bash
+          echo $ej9 | jq -r .mafeq2327 | /bin/bash
+          echo $egtfe71 | jq -r .z6101 | /bin/bash
+          echo $elyiy4 | jq -r .e37758 | /bin/bash
+          echo $d9 | jq -r .xnmc89 | /bin/bash
+          echo $wvh76 | jq -r .sukez15 | /bin/bash
+          echo $r4 | jq -r .n414 | /bin/bash
+          echo $zqe33 | jq -r .ojw155 | /bin/bash
+          echo $rs17 | jq -r .ijo9 | /bin/bash
+          echo $cova44 | jq -r .uqxcs3 | /bin/bash
 
